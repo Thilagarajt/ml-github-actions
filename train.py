@@ -32,6 +32,6 @@ if __name__ == "__main__":
     model, X_test, y_test, accuracy = train_model()
     # Save the trained model
     joblib.dump(model, "model.pkl")
-    print("Model training completed successfully - CI test!")
+    print("Model training completed successfully - CI test!  -- Done by Thilagaraj")
     print(f"Test accuracy: {accuracy:.2%}")
     print("Model saved as model.pkl")
